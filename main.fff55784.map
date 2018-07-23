@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.js"],"names":["app","document","querySelector","innerHTML"],"mappings":";AAAA,IAAMA,EAAMC,SAASC,cAAc,QAEnCF,EAAIG,UAAJ","file":"main.fff55784.map","sourceRoot":"../src","sourcesContent":["const app = document.querySelector('#app');\n\napp.innerHTML = `<p>\n  hello!\n</p>`;\n"]}
