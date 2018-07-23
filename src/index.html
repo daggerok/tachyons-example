@@ -13,9 +13,15 @@
 </head>
 <!--
   body:
-  - green background
-  - text blackish (40% transparent)
-  - padding 2nd
+  - bg-green:
+    - background color: green
+  - black-60:
+    - text color: black
+    - opacity: 60%
+  - padding: pa2
+    - p: padding
+    - a: all-sides
+    - 2: scaling (possible values from small to large: 1 2 3 4 5 6 7)
 -->
 <body class="bg-green black-60 pa2">
 <div id="app">
@@ -29,6 +35,14 @@
     - font size little bit smaller
   -->
   <h2 class="f4">subtitle</h2>
+
+  <div class="bg-gray ph5 pv1">
+    background: gray
+
+    padding horizontally: 5
+
+    padding vertically: 1
+  </div>
 </div>
 <script src="./main.js"></script>
 </body>
