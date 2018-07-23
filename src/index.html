@@ -17,13 +17,13 @@
     - background color: green
   - black-60:
     - text color: black
-    - opacity: 60%
+    - opacity: 40%
   - padding: pa2
     - p: padding
     - a: all-sides
     - 2: scaling (possible values from small to large: 1 2 3 4 5 6 7)
 -->
-<body class="bg-green black-60 pa2">
+<body class="bg-green black-40 pa2">
 <div id="app">
   <!--
     h1:
@@ -36,16 +36,29 @@
   -->
   <h2 class="f4">subtitle</h2>
 
-  <div class="bg-gray ph5-l pv3-l white-30">
+  <div class="bg-gray ph4 pv3 white-80">
     background: gray
     <br>
-    padding horizontally: 5 (large)
+    padding horizontally: 4 scaled
     <br>
-    padding vertically: 1 (large)
+    padding vertically: 3 scaled
     <br>
     text color: white
-    opacity: 30
+    opacity: 80
   </div>
+
+  <!--
+    button:
+    - border:
+      - bn: non bordered
+      - br2-l: with radius
+    - padding:
+      - ph3: 3 scaled by horizontal
+      - pv1: 1 scaled by vertical
+    - dim: highlight on hovered dimming effect
+    - pointer: change cursor to pointer
+  -->
+  <button class="ph3 pv1 bn br2-l pointer dim">Hello!</button>
 </div>
 <script src="./main.js"></script>
 </body>
